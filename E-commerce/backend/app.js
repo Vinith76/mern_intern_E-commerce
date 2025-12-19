@@ -10,8 +10,8 @@ const authRoutes = require("./routes/authRoutes");
 const app = express();
 
 app.use(cors({
-    origin:"https://13.62.229.96"
-    credentials:true
+    origin:"https://13.62.229.96:4000"
+    Credential :true
 }));
 app.use(express.json());
 app.use("/api/products", productRoutes);
